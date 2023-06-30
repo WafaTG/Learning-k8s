@@ -9,3 +9,8 @@
 - kubectl apply -f ./nginx.yaml
 - kubectl port-forward deployments/nginx-deployment 8080:80
 - Access http://localhost:8080 on browser
+
+
+## Other commands
+- kubectl get deployments  > to get running deployments
+- kubectl delete deployment/nginx-deployment > to delte deployment
